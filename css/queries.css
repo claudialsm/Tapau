@@ -345,6 +345,6 @@ on font-size: 62.5% of the html element */
     .cta-img-box {
         height: 32rem;
         grid-row: 1;
-        background-position: 70% 20%;
+        background-position: 70% 60%;
     }
 }
