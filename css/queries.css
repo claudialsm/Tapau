@@ -347,4 +347,8 @@ on font-size: 62.5% of the html element */
         grid-row: 1;
         background-position: 70% 60%;
     }
+
+    .cta-text-box {
+        padding: 3.2rem;
+    }
 }
