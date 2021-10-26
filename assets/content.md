@@ -9,6 +9,12 @@ We are a client-first company focused on holiday planning, with a unique network
 
 Headline: Are you ready to start travelling the world again? We are going to show you the amazing ways to do it.
 
+Color template:
+#F9E0D9 misty rose -- #f3ede8
+#E6DBD0 almond
+#3587a4 blue munsell
+#481620 dark sienna
+#2D848A metallic seaweed
 
 ## Pulda Website Content
 
@@ -32,9 +38,9 @@ The planning service that will help you create memories and unwind, stress-free.
 
 Tell us what you like (and what not): Never again waste time thinking about where to go and what to do! Pulda AI and agents will create a 100% personalized holiday plan just for you. It makes sure you get a unique local experience, no matter your budget!
 
-Travel at your convenience: Expert travellers and local guides in town will help make recommendations and navigate you around, flexibly.
-
 Approve your travelling plan: Approve the travelling itinerary generated for you by Pulda. You can change travelling times, destinations, or even add your own activities.
+
+Travel at your convenience: Our physical and virtual  guides in town will make recommendations and navigate you around, according to your needs.
 
 
 ### Pulda works with any types of travelling
