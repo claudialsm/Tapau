@@ -51,3 +51,34 @@ allLinks.forEach(function (link) {
       headerEl.classList.toggle("nav-open");
   });
 });
+
+///////////////////////////////////////////////////////////
+// Sticky navigation
+
+// Observe section hero
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+
+    // Add sticky class if not intersecting
+    if (ent.isIntersecting === false) {
+      document.body.classList.add("sticky");
+    }
+
+    if (ent.isIntersecting === true) {
+      document.body.classList.remove("sticky");
+    }
+  },
+  {
+    // Observe hero section as it moves in the viewport
+    root: null,
+    // As soon as 0% of section hero is in the viewport
+    threshold: 0,
+    // Has to be pixels here. Do not overlap heading in section featured
+    rootMargin: "-140px",
+  }
+);
+obs.observe(sectionHeroEl);
