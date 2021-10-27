@@ -132,6 +132,8 @@ on font-size: 62.5% of the html element */
     /* This navigation should work for devices below this viewport width */
     .btn-mobile-nav {
         display: block;
+        /* So that focus state is always on white background of main-nav */
+        z-index: 9999;
     }
 
     /* Remove navigation bar using absolute positioning */
@@ -140,6 +142,7 @@ on font-size: 62.5% of the html element */
     
     .main-nav {
         background-color: #fff1f4;
+        color: #333;
         position: absolute;
         top: 0;
         left: 0;
@@ -345,6 +348,10 @@ on font-size: 62.5% of the html element */
     .cta-img-box {
         height: 32rem;
         grid-row: 1;
-        background-position: 70% 20%;
+        background-position: 70% 60%;
+    }
+
+    .cta-text-box {
+        padding: 3.2rem;
     }
 }
