@@ -85,6 +85,16 @@
     display: none;
 }
 
+<<<<<<< HEAD
+/* STICKY NAVIGATION */
+.sticky {
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #171615;
+    }
+=======
 /* If sticky class is in the parent element (body) */
 .sticky .header {
     position: fixed;
@@ -99,6 +109,7 @@
     z-index: 999;
     box-shadow: 0 1.2rem 3.2rem rgba(23,22,21,0.1);
 }
+>>>>>>> main
 
 /*------------------------------------------*/
 /* HERO */
