@@ -445,7 +445,6 @@
     /* img has 100% width of gallery-item grid box */
     width: 100%;
     transition: all 0.3s;
-    
 }
 
 .gallery-item img:hover {
