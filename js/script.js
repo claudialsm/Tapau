@@ -55,6 +55,10 @@ allLinks.forEach(function (link) {
 ///////////////////////////////////////////////////////////
 // Sticky navigation
 
+<<<<<<< HEAD
+=======
+// Observe section hero
+>>>>>>> main
 const sectionHeroEl = document.querySelector(".section-hero");
 
 const obs = new IntersectionObserver(
@@ -62,6 +66,10 @@ const obs = new IntersectionObserver(
     const ent = entries[0];
     console.log(ent);
 
+<<<<<<< HEAD
+=======
+    // Add sticky class if not intersecting
+>>>>>>> main
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
     }
@@ -71,14 +79,27 @@ const obs = new IntersectionObserver(
     }
   },
   {
+<<<<<<< HEAD
     // In the viewport
     root: null,
     threshold: 0,
     rootMargin: "-80px",
+=======
+    // Observe hero section as it moves in the viewport
+    root: null,
+    // As soon as 0% of section hero is in the viewport
+    threshold: 0,
+    // Has to be pixels here. Do not overlap heading in section featured
+    rootMargin: "-140px",
+>>>>>>> main
   }
 );
 obs.observe(sectionHeroEl);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
@@ -97,6 +118,7 @@ function checkFlexGap() {
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
+<<<<<<< HEAD
 checkFlexGap();
 
 /*
@@ -149,3 +171,6 @@ checkFlexGap();
   }
 }
 */ 
+=======
+checkFlexGap();
+>>>>>>> main
