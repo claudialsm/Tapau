@@ -69,13 +69,12 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #333;
-    /* All elements that overflow the viewport horizontally will be hidden */
-    /* Only works if there's nothing absolutely positioned in relation to body */
-    overflow-x: hidden;
 }
 
+/* All elements that overflow the viewport horizontally will be hidden */
+/* Only works if there's nothing absolutely positioned in relation to body */
 /* Remove unwanted white screen on mobile devices upon sliding horizontally */
-html,body{
+html, body{
     overflow-x: hidden;
 }
 
