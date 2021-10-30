@@ -55,10 +55,7 @@ allLinks.forEach(function (link) {
 ///////////////////////////////////////////////////////////
 // Sticky navigation
 
-<<<<<<< HEAD
-=======
 // Observe section hero
->>>>>>> main
 const sectionHeroEl = document.querySelector(".section-hero");
 
 const obs = new IntersectionObserver(
@@ -66,10 +63,7 @@ const obs = new IntersectionObserver(
     const ent = entries[0];
     console.log(ent);
 
-<<<<<<< HEAD
-=======
     // Add sticky class if not intersecting
->>>>>>> main
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
     }
@@ -79,27 +73,16 @@ const obs = new IntersectionObserver(
     }
   },
   {
-<<<<<<< HEAD
-    // In the viewport
-    root: null,
-    threshold: 0,
-    rootMargin: "-80px",
-=======
     // Observe hero section as it moves in the viewport
     root: null,
     // As soon as 0% of section hero is in the viewport
     threshold: 0,
     // Has to be pixels here. Do not overlap heading in section featured
     rootMargin: "-140px",
->>>>>>> main
   }
 );
 obs.observe(sectionHeroEl);
 
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
@@ -118,59 +101,4 @@ function checkFlexGap() {
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
-<<<<<<< HEAD
 checkFlexGap();
-
-/*
-.no-flexbox-gap .main-nav-list li:not(:last-child) {
-  margin-right: 4.8rem;
-}
-
-.no-flexbox-gap .list-item:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.no-flexbox-gap .list-icon:not(:last-child) {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .delivered-faces {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .meal-attribute:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
-.no-flexbox-gap .meal-icon {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .footer-row div:not(:last-child) {
-  margin-right: 6.4rem;
-}
-
-.no-flexbox-gap .social-links li:not(:last-child) {
-  margin-right: 2.4rem;
-}
-
-.no-flexbox-gap .footer-nav li:not(:last-child) {
-  margin-bottom: 2.4rem;
-}
-
-@media (max-width: 75em) {
-  .no-flexbox-gap .main-nav-list li:not(:last-child) {
-    margin-right: 3.2rem;
-  }
-}
-
-@media (max-width: 59em) {
-  .no-flexbox-gap .main-nav-list li:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 4.8rem;
-  }
-}
-*/ 
-=======
-checkFlexGap();
->>>>>>> main
