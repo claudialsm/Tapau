@@ -11,5 +11,5 @@ This is a static website for a hypothetical company focused on holiday planning.
 - Responsive web design
 
 ## How you can contribute:
-- Create layout for new pages e.g. detailed information on destinations/pricing available
+- Create layout for new pages e.g. detailed information on destinations/travel plans available
 - Contribute content for the new pages 
